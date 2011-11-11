@@ -1,0 +1,19 @@
+this repo is a simple extension that can be loaded into the metasploit framework. it consist mostly
+of poc's. i may add some exploits. dunno.
+
+move into your metasploit framework root. grab the repo.
+
+mc@casita:~/code/msf$ git clone https://github.com/ceballosm/mc_msfxtended.git
+Initialized empty Git repository in /home/mc/code/msf/mc_msfxtended/.git/
+remote: Counting objects: 8, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 8 (delta 2), reused 8 (delta 2)
+Unpacking objects: 100% (8/8), done.
+
+start up the metasploit framework and load the extension.
+
+mc@casita:~/code/msf$ ./msfconsole --quiet
+msf > loadpath mc_msfxtended
+Loaded 3 modules:
+    3 exploits
+msf > 
